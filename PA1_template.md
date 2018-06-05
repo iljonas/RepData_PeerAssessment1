@@ -52,7 +52,7 @@ hist(stepsByDate$Total.Steps, col = "green", xlab = "Total Steps per Day",
      ylab = "Number of Days", main = "Distribution of Total Steps per Day")
 ```
 
-![](PA1_template_files/figure-html/Steps per Day Hist-1.png)<!-- -->
+![](PA1_template_files/figure-html/Steps per_Day_Hist-1.png)<!-- -->
 
 ### Calculate and report the mean and median total number of steps taken per day
 Show mean and median of the dataset with the summarize. xtable also used to clean up the display
@@ -65,7 +65,7 @@ print(table1, type = "html")
 ```
 
 <!-- html table generated in R 3.4.2 by xtable 1.8-2 package -->
-<!-- Sat May 19 10:12:33 2018 -->
+<!-- Mon Jun 04 19:59:59 2018 -->
 <table border=1>
 <tr> <th>  </th> <th> Mean </th> <th> Median </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> 9354.23 </td> <td align="right"> 10395 </td> </tr>
@@ -83,7 +83,7 @@ plot(stepsByInterval$interval, stepsByInterval$Average, type = "l", col = "green
      main = "Average Number of Steps Over 5-Minute Intervals")
 ```
 
-![](PA1_template_files/figure-html/Average Daily Activity-1.png)<!-- -->
+![](PA1_template_files/figure-html/Average_Daily_Activity-1.png)<!-- -->
 
 ### Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 Determins the maximum average number of steps taken per interval and finds which interval in the dataset has an average matching that value.
@@ -94,7 +94,7 @@ print(table2, type = "html")
 ```
 
 <!-- html table generated in R 3.4.2 by xtable 1.8-2 package -->
-<!-- Sat May 19 10:12:33 2018 -->
+<!-- Mon Jun 04 20:00:00 2018 -->
 <table border=1>
 <tr> <th>  </th> <th> interval </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> 835 </td> </tr>
@@ -131,7 +131,7 @@ hist(stepsByDate_meanInt$Total.Steps, col = "blue", xlab = "Total Steps per Day"
      ylab = "Number of Days", main = "Distribution of Total Steps per Day")
 ```
 
-![](PA1_template_files/figure-html/Total Steps by Day - Hist-1.png)<!-- -->
+![](PA1_template_files/figure-html/Total_Steps_by_Day-Hist-1.png)<!-- -->
 
 ### Calculate and report the mean and median total number of steps taken per day.
 
@@ -142,7 +142,7 @@ print(table3, type = "html")
 ```
 
 <!-- html table generated in R 3.4.2 by xtable 1.8-2 package -->
-<!-- Sat May 19 10:12:34 2018 -->
+<!-- Mon Jun 04 20:00:00 2018 -->
 <table border=1>
 <tr> <th>  </th> <th> Mean </th> <th> Median </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> 10766.19 </td> <td align="right"> 10766.19 </td> </tr>
@@ -174,4 +174,4 @@ g + geom_line(aes(color = Part.of.Week)) + facet_grid(Part.of.Week ~ .) + theme_
           y  = "Average Number of Steps (across all days)")
 ```
 
-![](PA1_template_files/figure-html/Activity by Part of Week-1.png)<!-- -->
+![](PA1_template_files/figure-html/Activity_by_Part_of_Week-1.png)<!-- -->
