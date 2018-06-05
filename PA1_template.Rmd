@@ -22,7 +22,7 @@ options(warn=-1)
 ## What is mean total number of steps taken per day?
 ### Make a histogram of the total number of steps taken each day
 Grouped the dataset on the date field and summarized the total number of steps taken by the date. These results are then displayed in a histogram.
-```{r Steps per_Day_Hist}
+```{r Steps_per_Day_Hist}
 library(dplyr)
 activityByDate <- group_by(activityData, date)
 stepsByDate <- summarize(activityByDate, Total.Steps = sum(steps, na.rm = TRUE))

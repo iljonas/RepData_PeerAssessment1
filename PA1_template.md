@@ -65,7 +65,7 @@ print(table1, type = "html")
 ```
 
 <!-- html table generated in R 3.4.2 by xtable 1.8-2 package -->
-<!-- Mon Jun 04 19:59:59 2018 -->
+<!-- Mon Jun 04 20:05:25 2018 -->
 <table border=1>
 <tr> <th>  </th> <th> Mean </th> <th> Median </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> 9354.23 </td> <td align="right"> 10395 </td> </tr>
@@ -94,7 +94,7 @@ print(table2, type = "html")
 ```
 
 <!-- html table generated in R 3.4.2 by xtable 1.8-2 package -->
-<!-- Mon Jun 04 20:00:00 2018 -->
+<!-- Mon Jun 04 20:05:26 2018 -->
 <table border=1>
 <tr> <th>  </th> <th> interval </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> 835 </td> </tr>
@@ -142,7 +142,7 @@ print(table3, type = "html")
 ```
 
 <!-- html table generated in R 3.4.2 by xtable 1.8-2 package -->
-<!-- Mon Jun 04 20:00:00 2018 -->
+<!-- Mon Jun 04 20:05:26 2018 -->
 <table border=1>
 <tr> <th>  </th> <th> Mean </th> <th> Median </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> 10766.19 </td> <td align="right"> 10766.19 </td> </tr>

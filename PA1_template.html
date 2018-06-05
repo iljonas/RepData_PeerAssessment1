@@ -164,7 +164,7 @@ table1 &lt;- xtable(summarize(stepsByDate, Mean = mean(Total.Steps, na.rm = TRUE
           Median = median(Total.Steps, na.rm = TRUE)))
 print(table1, type = &quot;html&quot;)</code></pre>
 <!-- html table generated in R 3.4.2 by xtable 1.8-2 package -->
-<!-- Mon Jun 04 19:59:59 2018 -->
+<!-- Mon Jun 04 20:05:25 2018 -->
 <table border="1">
 <tr>
 <th>
@@ -208,7 +208,7 @@ plot(stepsByInterval$interval, stepsByInterval$Average, type = &quot;l&quot;, co
 <pre class="r"><code>table2 &lt;- xtable(stepsByInterval[which(max(stepsByInterval$Average) == stepsByInterval$Average), &quot;interval&quot;])
 print(table2, type = &quot;html&quot;)</code></pre>
 <!-- html table generated in R 3.4.2 by xtable 1.8-2 package -->
-<!-- Mon Jun 04 20:00:00 2018 -->
+<!-- Mon Jun 04 20:05:26 2018 -->
 <table border="1">
 <tr>
 <th>
@@ -258,7 +258,7 @@ hist(stepsByDate_meanInt$Total.Steps, col = &quot;blue&quot;, xlab = &quot;Total
           Median = median(Total.Steps, na.rm = TRUE)))
 print(table3, type = &quot;html&quot;)</code></pre>
 <!-- html table generated in R 3.4.2 by xtable 1.8-2 package -->
-<!-- Mon Jun 04 20:00:00 2018 -->
+<!-- Mon Jun 04 20:05:26 2018 -->
 <table border="1">
 <tr>
 <th>
